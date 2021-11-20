@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aas/Soc</title>
+<!-- link CSS -->
+    <link rel="stylesheet" href="style.css">
+<!-- Link Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <h2 class="logo">Aas/Soc</h2>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Trouver pour la cération...">
+            </div>
+                <div class="create">
+                    <label class="btn btn-primary" for="create-post">Crée</label>
+                    <div class="profil-pic">
+                        <img src="images/paparazzi.jpg" alt="profil-pic">
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+
+<!-- ====================== MAIN ========================-->
+
+<main>
+
+    <div class="container">
+
+<!--====================== PARTIE GAUCHE ======================  -->
+        <div class="gauche">
+            <a class="profil">
+                <div class="profil-pic">
+                    <img src="images/paparazzi.jpg" alt="profil-pic">
+                </div>
+                <div class="handle">
+                    <h1>Aasi Cyn</h1>
+                    <p class="text-muted">@Aasi cyn</p>
+                </div>
+            </a>
+
+<!------------------------- SLIDE BAR ------------------------- -->
+
+            <div class="sidebar" style="margin-bottom: 5rem;">
+                <a class="menu-item active">
+                    <span><i class="fas fa-house-user"></i></span><h3>Accueil</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="far fa-compass"></i></span><h3>Explorer</h3>
+                </a>
+                <a class="menu-item" id="notifications">
+                    <span><i class="fas fa-bell"><small class="noti-count">16+</small></i></span><h3>Notification</h3>
+                    <!-- ---------- POPUP DE NOTIFICATION -->
+                    <div class="notification-popup">
+
+                    <!-- Permier notification -->
+                        <div>
+                            <div class="profil-pic">
+                                <img src="images/notifi-pic-1.jpg" alt="notifi-pic">
+                            </div>
+                            <b>Alice Julic</b> Vous envoyer un message
+                            <small class="text-muted">il y a 35 seconds</small>
+                        </div>
+
+                        <!-- deuxieme notification -->
+                        <div>
+                            <div class="profil-pic">
+                                <img src="images/notifi-pic-2.jpg" alt="notifi-pic">
+                            </div>
+                            <b>Martin Thomas</b> vous envoyer une demande d'ami
+                            <small class="text-muted">il y a 3 minutes</small>
+                        </div>
+
+                        <!-- troiseme notification -->
+                        <div>
+                            <div class="profil-pic">
+                                <img src="images/notifi-pic-3.jpg" alt="notifi-pic">
+                            </div>
+                            <b>Emma De Sonna</b> commencé à Vous suivre
+                            <small class="text-muted">il y a 45 minutes</small>
+                        </div>
+
+                        <!-- quarteme notification -->
+                        <div>
+                            <div class="profil-pic">
+                                <img src="images/notifi-pic-5.jpg" alt="notifi-pic">
+                            </div>
+                            <b>Unicorn Angel</b> a animé votre photo
+                            <small class="text-muted">il y a 10 heures</small>
+                        </div>
+
+                        <!-- cinqieme notification -->
+                        <div>
+                            <div class="profil-pic">
+                                <img src="images/notifi-pic-7.jpg" alt="notifi-pic">
+                            </div>
+                            <b>Bernad Durand</b> a commenté: "c'est trop beau 😍"
+                            <small class="text-muted">il y a 6 jour</small>
+                        </div>
+                        
+                    </div>
+                </a>
+                <a class="menu-item" id="message-notification">
+                    <span><i class="fas fa-envelope"><small class="noti-count">9+</small></i></span><h3>Messages</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="far fa-bookmark"></i></span><h3>Signets</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fas fa-chart-pie"></i></span><h3>Analytique</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fas fa-palette"></i></span><h3>Thème</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fas fa-cog"></i></span><h3>Paramètres</h3>
+                </a>
+            </div>
+
+        </div>   <!-- fin de partie gauche --> 
+
+
+
+<!--====================== PARTIE CENTRE ======================  -->
+<div class="centre">
+<!-- -------------- STOIRES ---------------- -->
+    <div class="stories">
+
+<!-- Permier story -->
+            <div class="story">
+                <div class="profil-pic">
+                    <img src="./images/paparazzi.jpg" alt="">
+                </div>
+                <p class="name">Votre Story</p>
+            </div>
+<!-- deuxième  story -->
+        <div class="story">
+            <div class="profil-pic">
+                <img src="./images/story-pic-1.jpg" alt="">
+            </div>
+            <p class="name">Alice Julic</p>
+        </div>
+<!-- troisième  story -->
+         <div class="story">
+            <div class="profil-pic">
+                <img src="./images/story-pic-10.jpg" alt="">
+            </div>
+            <p class="name">Jean François</p>
+        </div> 
+<!-- quatrième  story -->
+        <div class="story">
+            <div class="profil-pic">
+                <img src="./images/story-pic-12.jpg" alt="">
+            </div>
+            <p class="name">Endra Ellam</p>
+        </div>  
+<!-- cinquième  story -->
+        <div class="story">
+            <div class="profil-pic">
+                <img src="./images/story-pic-13.jpg" alt="">
+            </div>
+            <p class="name">El Valentina</p>
+        </div>
+    </div>
+<!-- -------------- SEARCH BAR ---------------- -->
+
+        <div class="create-post">
+            <div class="profil-pic">
+                <img src="./images/paparazzi.jpg">
+            </div>
+            <input type="text" placeholder="Qu'est-ce que tu as en tête en ce moment?" id="create-post">
+            <input type="submit" value="Publier" class="btn btn-primary">
+        </div>
+
+
+<!-- -------------- FEEDS  ---------------- -->
+
+<div class="feeds">
+<!-- -------------- Permiere FEED  ---------------- -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profil-pic">
+                    <img src="./images/story-pic-8.jpg">
+                </div>
+                <div class="title">
+                    <h2>Emma Rose</h2>
+                        <small>Carolabrucke (Dresden)</small>
+                </div>
+            </div>
+            <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+        </div>
+
+        <div class="photo">
+            <img src="./images/winter-decorated-skating-park.jpg">
+        </div>
+        <div class="action-button">
+            <div class="inter-button">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-comment-dots"></i></span>
+                <span><i class="far fa-paper-plane"></i></span>
+            </div>
+            <div class="bookmark">
+                <span><i class="far fa-bookmark"></i></span>
+            </div>
+        </div>
+        <div class="liked-by">
+            <span><img src="./images/notifi-pic-5.jpg"></span>
+            <span><img src="./images/story-pic-12.jpg"></span>
+            <span><img src="./images/story-pic-1.jpg"></span>
+            <p>Animé par <b>magarita</b> et <b>135 autres</b></p>
+        </div>
+        <div class="caption">
+            <b>Emma Rose</b><p>Lorem ipsum dolor, sit amet 
+            consectetur adipisicing elit. Ex, nisi! 
+            <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+        </div>
+        <div class="comments text-muted">Voir les 235 commentaires</div>
+
+        <form action="create-post" class="create-post">
+            <div class="profil-pic">
+                <img src="./images/paparazzi.jpg">
+            </div>
+            <input type="text" placeholder="Ajouter un commentaire...">
+            <div class="emojis">
+            <span>😍</span>
+            <span>😂</span>
+            <span><i class="fas fa-plus-circle"></i></span>
+            </div>
+        </form>
+    </div>
+
+<!-- -------------- DEUXIEME FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/smile-can-fix-a-lot-of-things.jpg">
+            </div>
+            <div class="title">
+                <h2>El Primo</h2>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/smile-can-fix-a-lot-of-things.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/story-pic-9.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>ash</b> et <b>326 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>El Primo</b><p>Lorem ipsum dolor, sit amet 
+            consectetur adipisicing elit. Ex, nisi! 
+            <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 215 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- TROISIME FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/story-pic-12.jpg">
+            </div>
+            <div class="title">
+                <h2>Rico Tick</h2>
+                    <small>Londres (Royaume-uni)</small>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/story-pic-9.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/story-pic-4.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>Brock</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Rico Tick</b> <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- QUARTIEME FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/little-girl-feeding-a-fluffy-dog-toy.jpg">
+            </div>
+            <div class="title">
+                <h2>Colette Amber</h2>
+                    <small>New York </small>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/it's-not-easy-to-be-a-new-person.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/story-pic-5.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>Byron</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Colette Amber</b> <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- CINQIEME FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/story-pic-12.jpg">
+            </div>
+            <div class="title">
+                <h2>Rico Tick</h2>
+                    <small>Londres (Royaume-uni)</small>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/story-pic-10.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/story-pic-4.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>Brock</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Rico Tick</b> <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- SIXIEME FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/husky-dog-with-his-tongue-out-and-eyes-closed.jpg">
+            </div>
+            <div class="title">
+                <h2>Darryl Emz</h2>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/story-pic-6.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/husky-dog-with-his-tongue-out-and-eyes-closed.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>Ash Emz</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Barley Bel</b> <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- 7eme FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/notifi-pic-3.jpg">
+            </div>
+            <div class="title">
+                <h2>Shelly Stu</h2>
+                    <small>Paris (France)</small>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/notifi-pic-3.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/story-pic-7.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>magarita</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Shelly Stu</b> <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- 8eme FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/husky-dog-with-his-tongue-out-and-eyes-closed.jpg">
+            </div>
+            <div class="title">
+                <h2>Darryl Emz</h2>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/story-pic-7.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/husky-dog-with-his-tongue-out-and-eyes-closed.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>Ash Emz</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Barley Bel</b> <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+<!-- -------------- 9eme FEED  ---------------- -->
+<div class="feed">
+    <div class="head">
+        <div class="user">
+            <div class="profil-pic">
+                <img src="./images/notifi-pic-6.jpg">
+            </div>
+            <div class="title">
+                <h2>Lola Rose</h2>
+                    <small>Madrid (Espagne)</small>
+            </div>
+        </div>
+        <span class="edit"><i class="fas fa-ellipsis-v"></i></span>
+    </div>
+
+    <div class="photo">
+        <img src="./images/story-pic-2.jpg">
+    </div>
+    <div class="action-button">
+        <div class="inter-button">
+            <span><i class="far fa-heart"></i></span>
+            <span><i class="far fa-comment-dots"></i></span>
+            <span><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="bookmark">
+            <span><i class="far fa-bookmark"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/notifi-pic-5.jpg"></span>
+        <span><img src="./images/story-pic-12.jpg"></span>
+        <span><img src="./images/story-pic-1.jpg"></span>
+        <p>Animé par <b>magarita</b> et <b>135 autres</b></p>
+    </div>
+    <div class="caption">
+        <b>Lola Rose</b>  <p>Lorem ipsum dolor, sit amet 
+        consectetur adipisicing elit. Ex, nisi! 
+        <span class="harsh-tag">#lifestyle #mode #peace #voyage </span></p>
+    </div>
+    <div class="comments text-muted">Voir les 235 commentaires</div>
+
+    <form action="create-post" class="create-post">
+        <div class="profil-pic">
+            <img src="./images/paparazzi.jpg">
+        </div>
+        <input type="text" placeholder="Ajouter un commentaire...">
+        <div class="emojis">
+        <span>😍</span>
+        <span>😂</span>
+        <span><i class="fas fa-plus-circle"></i></span>
+        </div>
+    </form>
+</div>
+
+</div> <!-- FIN FEEDS  -->
+
+</div> <!-- FIN PARTIE CENTRE  -->
+
+
+
+
+<!--====================== PARTIE DROITE ======================  -->
+    <div class="droite">
+      <div class="messages">
+          <div class="heading">
+              <h4>Messages</h4><i class="far fa-edit"></i>
+          </div>
+<!-- ---------------- SEARCH BAR ------------------- -->
+          <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="Recherche messages" id="message-search">
+          </div>
+<!-- ---------------- MESSAGES CATEGORY ------------------- -->
+          <div class="category">
+              <h5 class="active">Primaire</h5>
+              <h5>General</h5>
+              <h5 class="messages-request">Demander(54)</h5>
+          </div>
+<!-- ---------------- MESSAGE ------------------- -->
+            <div class="message">
+                <div class="profil-pic">
+                    <img src="./images/pp.jpg">
+                    <div class="active"></div>
+                </div>
+                <div class="message-body">
+                    <h6>Cynthiz Quist</h6>
+                    <p class="text-bold">Tu fais quoi en ce moment?</p>
+                </div> 
+            </div>
+<!-- ---------------- MESSAGE ------------------- -->
+            <div class="message">
+                <div class="profil-pic">
+                    <img src="./images/story-pic-0.jpg">
+                </div>
+                <div class="message-body">
+                    <h6>Chantel Juliet</h6>
+                    <p class="text-muted">ok on fait comme ça 👍</p>
+                </div> 
+            </div>
+            <!-- ---------------- MESSAGE ------------------- -->
+            <div class="message">
+                <div class="profil-pic">
+                    <img src="./images/notifi-pic-2.jpg">
+                </div>
+                <div class="message-body">
+                    <h6>Rico Rick</h6>
+                    <p class="text-muted"> mdrr 🤣🤣🤣</p>
+                </div> 
+            </div>
+            <!-- ---------------- MESSAGE ------------------- -->
+            <div class="message">
+                <div class="profil-pic">
+                    <img src="./images/story-pic-13.jpg">
+                    <div class="active"></div>
+                </div>
+                <div class="message-body">
+                    <h6>Daneilla</h6>
+                    <p class="text-bold">verra level 🤯🤯🤯 </p>
+                </div> 
+            </div>
+        </div>    
+          
+<!-- ---------------- DEMANDE D'AMI ------------------- -->
+    <!-- ---------------- 1er DEMANDE D'AMI ------------------- -->
+    <div class="friend-request">
+            <h3>Demande d'ami</h3>
+        <div class="request">
+            <div class="info">
+                <div class="profil-pic">
+                    <img src="./images/attractive-young-woman-sitting-near-a-christmas-tree.jpg">
+                </div>
+                <div>
+                    <h4>Hagnji Mapor</h4>
+                    <p class="text-muted"> 8 ami commun</p>
+                </div>
+            </div>
+            <div class="action">
+                <button class="btn btn-primary">Accepte</button>
+                <button class="btn">Refuse</button>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- 2eme DEMANDE D'AMI ------------------- -->
+    <div class="request">
+        <div class="info">
+            <div class="profil-pic">
+                <img src="./images/attractive-young-woman-sitting-near-a-christmas-tree.jpg">
+            </div>
+            <div>
+                <h4>Hagnji Mapor</h4>
+                <p class="text-muted"> 8 ami commun</p>
+            </div>
+        </div>
+        <div class="action">
+            <button class="btn btn-primary">Accepte</button>
+            <button class="btn">Refuse</button>
+        </div>
+    </div>
+    <!-- ---------------- 2eme DEMANDE D'AMI ------------------- -->
+    <div class="request">
+        <div class="info">
+            <div class="profil-pic">
+                <img src="./images/attractive-young-woman-sitting-near-a-christmas-tree.jpg">
+            </div>
+            <div>
+                <h4>Hagnji Mapor</h4>
+                <p class="text-muted"> 8 ami commun</p>
+            </div>
+        </div>
+        <div class="action">
+            <button class="btn btn-primary">Accepte</button>
+            <button class="btn">Refuse</button>
+        </div>
+    </div>
+    <!-- ---------------- 2eme DEMANDE D'AMI ------------------- -->
+    <div class="request">
+        <div class="info">
+            <div class="profil-pic">
+                <img src="./images/attractive-young-woman-sitting-near-a-christmas-tree.jpg">
+            </div>
+            <div>
+                <h4>Hagnji Mapor</h4>
+                <p class="text-muted"> 8 ami commun</p>
+            </div>
+        </div>
+        <div class="action">
+            <button class="btn btn-primary">Accepte</button>
+            <button class="btn">Refuse</button>
+        </div>
+    </div>
+
+    </div> <!-- Droit -->
+
+
+
+<!-- ========================= THEME CUSTOMIZATION ================== -->
+
+<div class="customize-theme">
+    <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your dont size, color and background</p>
+<!-- ------------------ Font Sizes ------------------------- -->
+        <div class="font-size">
+            <h4>Font size</h4>
+            <div>
+                <h5>Aa</h5>
+                <div class="choose-size">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2 active"></span>
+                    <span class="font-size-3"></span>
+                    <span class="font-size-4"></span>
+                    <span class="font-size-5"></span>
+                </div>
+                <h3>Aa</h3>
+            </div>
+        </div>
+<!-- ----------------------- Primary Colors---------------- -->
+
+        <div class="color">
+            <h4>Color</h4>
+            <div class="choose-color">
+                <span class="color-1 active"></span>
+                <span class="color-2"></span>
+                <span class="color-3"></span>
+                <span class="color-4"></span>
+                <span class="color-5"></span>
+            </div>
+        </div>
+
+<!-- ----------------------- Background Colors---------------- -->
+
+        <div class="background">
+            <h4>Background</h4>
+            <div class="choose-bg">
+                <div class="bg-1 active">
+                    <span></span>
+                    <h5 for="bg-1">Light</h5>
+                </div>
+                <div class="bg-2">
+                    <span></span>
+                    <h5>Dim</h5>
+                </div>
+                <div class="bg-3">
+                    <span></span>
+                    <h5 for="bg-3">Light out</h5>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</div><!-- Main container -->
+</main>
+
+</body>
+</html>
